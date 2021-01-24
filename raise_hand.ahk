@@ -8,7 +8,6 @@ FindAndClick(ImageFile, WinWidth, mx, my)
 		return
 	}
 	; searching is done in constrained space of the window, this speeds up searching
-	;msgbox ImageSearch, outx, outy, 600, 0, %WinWidth%, 200, *10 %ImageFile%
 	ImageSearch, outx, outy, 600, 0, %WinWidth%, 200, *10 %ImageFile%
 	if (ErrorLevel = 0) {
 		; move onto icon, avoiding clicking left top of the icon
