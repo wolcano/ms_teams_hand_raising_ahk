@@ -1,4 +1,5 @@
 # Raise Hand keyboard shortcut for Microsoft Teams
+Microsoft Teams is missing "Raise Hand" keyboard shortcut, which can be supplemented with this script. Script adds keyboard shortcut Ctrl+Shift+H, which searches for icon of raised/lowered hand and clicks on it with left mouse button.
 
 ## Requirements
 - [AutoHotkey](https://www.autohotkey.com) >= 1.1.33
